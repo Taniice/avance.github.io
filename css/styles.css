@@ -1,0 +1,397 @@
+
+* {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+} 
+
+html {
+    font-size: 70%;
+    /* ocultar la barra horizontal
+    overflow-x: hidden; */
+}
+body{
+    background-color: #f1efef;
+}
+
+
+.cabezera {
+    background: rgba(50, 48, 50, .2);
+
+}
+ /* LOGO */
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.caja {
+    /* background-color: #323032; */
+    background-color: rgba(50,48,50,.9);
+    width: 100%;
+    height: 15px; 
+}
+
+.navbar {
+    display:inline-block;
+    
+}
+
+/* MENU STYLES */
+.color-menu{
+    background-color:rgb(100, 0, 29);
+    font-family: 'Open Sans', sans-serif; 
+    font: 1.2rem /* 400 1.2rem/1.2rem */;
+
+}
+
+.my-menu, .my-menu:hover{
+    color: #FFFFFF;
+    
+}
+
+.my-menu-hover:hover{
+    background-color: #430215;
+    
+}
+/* .menu-estilos {
+   color: #FFFFFF;
+   padding: .5em 1em;
+   padding: 0em;
+   height:60px ;
+   text-align: center
+   
+}
+ */
+.box-menu{
+    width: 100%;
+}
+
+
+.menu-estilos:hover {
+    color: #FFFFFF;
+    background-color: #430215;
+}
+
+/* BARRA GEST DOCENTE */
+
+
+.gd-principal{
+    
+    display: inline-block;
+}
+
+.gd-img{
+    max-width: 100%;
+}
+
+.style-mv-color{
+    color: #ffffff;
+    background-color:rgb(100, 0, 29);
+    margin-left: 0.5em;
+}
+
+.style-mv-color:hover{
+    color: #ffffff;
+    background-color: #430215;
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:hover,.nav-pills .nav-link.active:focus{
+    background: #9B0D43;
+    color:white;
+    font-weight:550;
+}
+
+.subtitulo{
+    padding-left: .5rem;
+    margin: 0 26px;
+    font-family: OpenSans-Bold, sans-serif;
+
+  }
+  
+  
+  .style-news{
+    display: inline-block;
+  }
+
+  .gris01 {
+    background:#DBDBDB;
+    border-bottom: #6d6d72 solid 1px; 
+	
+  }
+
+  
+
+.gris02:hover {
+    background-color: rgba(0,0,0,.15);
+}
+
+/* .vertical{
+    position: fixed;
+    z-index: 1000;
+    
+} */
+
+/* CONTENIDO PILLS- PASTILLAS */
+.style-pill{
+    width: 100%;
+
+}
+
+.img-regl{
+    display: inline-block;
+    width: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+/* REGLAMENTOS */
+
+.card {
+    background-color: #ECECEC;
+    margin-bottom: .5em;
+    display: inline-block;
+    font-size: 1rem;
+  }
+ 
+
+/*  CONTENIDO PROCEDIMIENTOS */
+
+.style-procedimientos{
+    height: 5em;
+}
+
+/* PREGUNTAS FRECUENTES */
+#preg-frec {
+    margin: 0px 20px;
+    padding-left: 0%;
+}
+
+#preg-frec li{
+    border-top: #6d6d72 solid 1px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+}
+
+#preg-frec li h3 {
+    color: #64001d;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 15px 0;
+    letter-spacing: -0.05rem;
+}
+
+/*#preg-frec {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    color: rgb(100, 0, 29);
+} */
+
+
+
+
+
+/* BARRA IZQUIERDA INICIO ESTILOS */
+
+/* .principal-izquierda {
+    height: 400px;
+    font-size: 1rem;
+    padding: .5em;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+.principal-izquierda-estilos {
+    color: #FFFFFF;
+    background-color:rgb(100, 0, 29);
+    margin-top: .25em;
+    margin-bottom: .25em ;
+    border-radius: 10px;
+}
+
+.principal-izquierda-estilos:hover {
+    color: #FFFFFF;
+    background-color: #430215;
+} */
+
+
+
+/* CARRUSEL */
+
+
+
+.principal {
+width: 90%;
+margin: auto;
+}
+
+.portada {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.noticias {
+    text-align: justify
+} 
+
+.style-noticias{
+    background-color: #FFFFFF;
+    padding: 1em;
+    font-size: 0.8rem;
+    margin-bottom: 1em;
+}
+
+
+.btn-more{
+    color: #64001d;
+    margin: 20px 0;
+    display: inline-block;
+    /*text-transform: uppercase;*/
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.title-section{
+    border-left: 8px solid #64001d;
+    word-wrap: break-word;
+    padding-left: .5rem;
+    margin: 26px 26px ;
+    width: auto;
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 1.6rem;
+}
+ /* COMUNICADO */
+ .comunicado {
+     max-width: 100%;
+     display: inline-block;
+     margin-top: 1em;
+     margin-bottom: 2em;;
+     background-color: #FFFFFF;
+     
+ }
+
+/* NOSOTROS */
+.nosotros{
+    text-align: justify;
+    margin-bottom: 2em;
+    overflow:hidden;
+}
+
+.nosotros h4, .nosotros h3 {
+   color: rgb(100, 0, 29);
+}
+
+.banner{
+    filter:brightness(0.7);
+    margin-bottom: 4em;
+}
+
+.zoom{
+    transition: all .5s ease;
+   /*  transition: width 2s, height 2s, transform 2s; */
+    
+    
+}
+
+.zoom:hover{
+    transform:scale(1.2);
+    /* transform : scale(2);
+     */
+}
+
+/* .polit-calidad {
+    background: rgba(100, 0, 29, .1);
+    height: 100px;
+    
+}
+ */
+/* 
+.img-nosotros{
+    background-image: url(../images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+   
+} */
+
+/* FOOTER */
+.footer {
+    background-color: rgba(50,48,50,.9);
+    padding: 1.5em 2em;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contacto{
+    font-size: 1rem;
+    padding: 1em;
+
+}
+
+.footer h3{
+    font-size: 1.2rem ;
+}
+
+.fnt-peq {
+    font-size: .9em;
+}
+
+/* FOOTER2 */
+.style-secondfooter{
+    font-size: 0.8rem;
+}
+
+.mapa{
+    padding: 15px;
+    
+}
+
+
+
+/* creditos */
+.creditos{
+    background-color: rgba(50,48,50,1);
+    color: #FFFFFF;
+    font-family: Helvetica, Arial;
+    font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+    .img-regl{
+        margin-left:15px;
+        
+    }
+}
+
+@media (max-width: 767px) {
+    .principal {
+        width: 100%;
+}
+}
+
+
+@media (min-width: 600px) {
+    html {
+        font-size: 100%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .style-search{
+        display:none;
+    }
+}
+
