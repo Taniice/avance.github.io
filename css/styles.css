@@ -55,6 +55,8 @@ body{
     background-color: #430215;
     
 }
+
+
 /* .menu-estilos {
    color: #FFFFFF;
    padding: .5em 1em;
@@ -118,6 +120,7 @@ body{
   .gris01 {
     background:#DBDBDB;
     border-bottom: #6d6d72 solid 1px; 
+    z-index: 1050;
 	
   }
 
@@ -158,7 +161,14 @@ body{
     margin-bottom: .5em;
     display: inline-block;
     font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
   }
+
+.card h5 {
+    font-weight:bold;
+    color: rgb(100, 0, 29);
+
+}
  
 
 /*  CONTENIDO PROCEDIMIENTOS */
@@ -306,7 +316,7 @@ margin: auto;
 }
 
 .zoom:hover{
-    transform:scale(1.2);
+    transform:scale(1.1);
     /* transform : scale(2);
      */
 }
