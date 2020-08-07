@@ -21,7 +21,7 @@
             </div>
             <!-- REDES SOCIALES Y BUSCADOR -->
             <div class="col-6 redes-sociales d-flex justify-content-end align-items-center"> 
-                <nav class="navbar navbar-light style-search">
+                <nav class="navbar navbar-light">
                     <form class="form-inline">
                       <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
                       <button class="btn btn btn-dark my-2 my-sm-0" type="submit">
@@ -49,7 +49,7 @@
                   <a class="nav-link dropdown-toggle my-menu active" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">INICIO</a>
                   <div class="dropdown-menu gris01" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item gris02" href="../index.html">Inicio</a>
-                    <a class="dropdown-item gris02" href="./nosotros.html">Nosotros</a>  
+                    <a class="dropdown-item gris02" href="#">Nosotros</a>  
                   </div>
                 </li>
                 <li class="nav-item my-menu-hover d-flex align-items-center justify-content-center">
@@ -79,154 +79,159 @@
         </div>
         <!-- --------------------------------------------------------------------------------- -->
          <!-- MAIN -->
-        <div class="gd-principal">
-          <div class="row">
-            <div class="col-12 col-md-3 my-4">
-               <nav class="nav nav-pills flex-column sticky-top" id="menuvertical">
-                 <a class="nav-item nav-link active  style-mv-color my-1 " href="#v-pills-gc-uno">Registro de Planes de Estudio y equivalencias</a>
-                 <a class="nav-item nav-link style-mv-color my-1 " href="#v-pills-gc-dos">Registro de Planes de Funcionamiento</a>
-                 <a class="nav-item nav-link style-mv-color my-1" href="#v-pills-gc-tres">Asignación de labor lectiva</a>
-                 <a class="nav-item nav-link style-mv-color my-1" href="#v-pills-gc-cuatro">Registro de silabo y pesos ponderados</a>
-               </nav>
+        <div class=" gd-principal">
+            <!-- MENU VERTICAL -->
+            <div class="bd-example bd-example-tabs">
+              <div class="row">
+                <div class="col-12 col-md-3 my-4">
+                  <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link style-mv-color my-1 active show" id="v-pills-gc-uno-tab" data-toggle="pill" href="#v-pills-gc-uno" role="tab" aria-controls="v-pills-gc-uno" aria-selected="true">Registro de Planes de Estudio y equivalencias</a>
+                    <a class="nav-link style-mv-color my-1" id="v-pills-gc-dos-tab" data-toggle="pill" href="#v-pills-gc-dos" role="tab" aria-controls="v-pills-gc-dos" aria-selected="false">Registro de Planes de Funcionamiento</a>
+                    <a class="nav-link style-mv-color my-1" id="v-pills-gc-tres-tab" data-toggle="pill" href="#v-pills-gc-tres" role="tab" aria-controls="v-pills-gc-tres" aria-selected="false">Asignación de labor lectiva</a>
+                    <a class="nav-link style-mv-color my-1" id="v-pills-gc-cuatro-tab" data-toggle="pill" href="#v-pills-gc-cuatro" role="tab" aria-controls="v-pills-gc-cuatro" aria-selected="false">Registro de silabo y pesos ponderados</a>
+                  </div>
+                </div>
+                <!-- CONTENIDO MENU VERTICAL -->
+                <div class="col-12 col-md-9">
+                  <div class="row style-procedimientos">
+                    <h3 class="title-section">PROCEDIMIENTOS</h3><br>
+                  </div>
+                  <div class="row">
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <!-- PRIMER CONTENEDOR -->
+                      <div class="tab-pane fade active show" id="v-pills-gc-uno" role="tabpanel" aria-labelledby="v-pills-gc-uno-tab">
+                        <div class="row my-2 style-pill">
+                          <!-- <h3 class="title-section">PROCEDIMIENTOS</h3><br> -->
+                          <h4 class="subtitulo">Registro de Planes de Estudio y equivalencias</h4>
+                        </div>
+                        <div class="row my-2 style-pill">
+                          <div class="col-12 col-lg-8 img-regl">
+                            <img id="#gestionDocente" class="gd-img" src="../images/Nueva carpeta/2.1 Registro de planes de estudio y equivalencias.jpg" alt="">
+                            
+                          </div>
+                          <!-- REGLAMENTOS -->
+                          <div class="col-12 col-lg-4 img-regl">
+                            <div class="card" style="width: 18rem;">
+                              <div class="card-body">
+                                <h5>REGLAMENTOS</h5>
+                                <p>Documento.pdf</p>
+                                <a href="#" class="card-link">Ver/Descargar</a>
+                              </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                              <div class="card-body">
+                                <h5>REGLAMENTOS</h5>
+                                <p>Documento.pdf</p>
+                                <a href="#" class="card-link">Ver/Descargar</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- SEGUNDO CONTENEDOR -->
+                      <div class="tab-pane fade" id="v-pills-gc-dos" role="tabpanel" aria-labelledby="v-pills-gc-dos-tab">
+                        <div class="row my-2 style-pill">
+                          <h4 class="subtitulo">Registro de Planes de Funcionamiento</h4>
+                        </div>
+                        <div class="row my-2 style-pill">
+                          <div class="col-12 col-lg-8 img-regl">
+                            <img id="#gestionDocente" class="gd-img" src="../images/Nueva carpeta/2.2 Registro de planes de funcionamiento.jpg" alt="">
+                          </div>
+                          <!-- REGLAMENTOS -->
+                          <div class="col-12 col-lg-4 img-regl">
+                            <div class="card" style="width: 18rem;">
+                              <div class="card-body">
+                                <h5>FORMATOS</h5>
+                                <p>PLAN DE FUNCIONAMIENTO.pdf</p>
+                                <a href="../formatos/Fomato 1 Plan de Funcionamiento" class="card-link">Ver/Descargar</a>
+                              </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                              <div class="card-body">
+                                <h5>REGLAMENTOS</h5>
+                                <p>Documento.pdf</p>
+                                <a href="#" class="card-link">Ver/Descargar</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- TERCER CONTENEDOR -->
+                      <div class="tab-pane fade" id="v-pills-gc-tres" role="tabpanel" aria-labelledby="v-pills-gc-tres-tab">
+                        <div class="row my-2 style-pill">
+                          <h4 class="subtitulo">Asignación de labor lectiva</h4> 
+                        </div>
+                        <div class="row my-2 style-pill">
+                          <div class="col-12 col-lg-8 img-regl">
+                            <img id="#gestionDocente" class="gd-img" src="../images/Nueva carpeta/2.3 Asignacion de labor lectiva.jpg" alt="">
+                            
+                          </div>
+                          <!-- REGLAMENTOS -->
+                          <div class="col-12 col-lg-4 img-regl">
+                            <div class="card" style="width: 18rem;">
+                              <div class="card-body">
+                                <h5>REGLAMENTOS</h5>
+                                <p>Documento.pdf</p>
+                                <a href="#" class="card-link">Ver/Descargar</a>
+                              </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                              <div class="card-body">
+                                <h5>REGLAMENTOS</h5>
+                                <p>Documento.pdf</p>
+                                <a href="#" class="card-link">Ver/Descargar</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- CUARTO CONTENEDOR -->
+                      <div class="tab-pane fade" id="v-pills-gc-cuatro" role="tabpanel" aria-labelledby="v-pills-gc-cuatro-tab">
+                        <div class="row my-2 style-pill">
+                          <h4 class="subtitulo">Registro de silabo y pesos ponderados</h4> 
+                        </div>
+                        <div class="row my-2 style-pill">
+                          <div class="col-12 col-lg-8 img-regl">
+                            <img id="#gestionDocente" class="gd-img" src="../images/Nueva carpeta/2.4. Registro de silabo y pesos ponderados.jpg" alt="">
+                            
+                          </div>
+                          <!-- REGLAMENTOS -->
+                          <div class="col-12 col-lg-4 img-regl">
+                            <div class="card" style="width: 18rem;">
+                              <div class="card-body">
+                                <h5>REGLAMENTOS</h5>
+                                <p>Documento.pdf</p>
+                                <a href="#" class="card-link">Ver/Descargar</a>
+                              </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                              <div class="card-body">
+                                <h5>REGLAMENTOS</h5>
+                                <p>Documento.pdf</p>
+                                <a href="#" class="card-link">Ver/Descargar</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- <div class="col-12 col-md-3 my-4"> </div> -->
-            <div class="col-12 col-md-9">
-               <div class="row style-procedimientos">
-                 <h3 class="title-section">PROCEDIMIENTOS</h3><br>
-               </div>
-               <!-- PROCEDIMIENTOS -->
-               <div class="row procedimientos">
-                  <!-- PRIMER -->
-                  <div class="" id="v-pills-gc-uno" role="tabpanel" aria-labelledby="v-pills-gc-uno-tab">
-                    <div class="row my-2 style-pill">
-                      <h4 class="subtitulo">Registro de Planes de Estudio y equivalencias</h4>
-                    </div>
-                    <div class="row my-2 style-pill">
-                      <div class="col-12 col-lg-8 img-regl">
-                        <img id="#gestionDocente" class="gd-img" src="../images/Nueva carpeta/2.1 Registro de planes de estudio y equivalencias.jpg" alt="">
-                      </div>
-                      <!-- REGLAMENTOS -->
-                      <div class="col-12 col-lg-4 img-regl">
-                        <div class="card" style="width: 18rem;">
-                          <div class="card-body">
-                            <h5>REGLAMENTOS</h5>
-                            <p>Documento.pdf</p>
-                            <a href="#" class="card-link">Ver/Descargar</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                          <div class="card-body">
-                            <h5>REGLAMENTOS</h5>
-                            <p>Documento.pdf</p>
-                            <a href="#" class="card-link">Ver/Descargar</a>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                  
-                  </div>
-                  <!-- SEGUNDO -->
-                  <div class="" id="v-pills-gc-dos" role="tabpanel" aria-labelledby="v-pills-gc-dos-tab">
-                    <div class="row my-2 style-pill">
-                      <h4 class="subtitulo">Registro de Planes de Funcionamiento</h4>
-                    </div>
-                    <div class="row my-2 style-pill">
-                      <div class="col-12 col-lg-8 img-regl">
-                        <img id="#gestionDocente" class="gd-img" src="../images/Nueva carpeta/2.2 Registro de planes de funcionamiento.jpg" alt="">
-                      </div>
-                      <!-- REGLAMENTOS -->
-                      <div class="col-12 col-lg-4 img-regl">
-                        <div class="card" style="width: 18rem;">
-                          <div class="card-body">
-                            <h5>REGLAMENTOS</h5>
-                            <p>Documento.pdf</p>
-                            <a href="#" class="card-link">Ver/Descargar</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                          <div class="card-body">
-                            <h5>REGLAMENTOS</h5>
-                            <p>Documento.pdf</p>
-                            <a href="#" class="card-link">Ver/Descargar</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- TERCER CONTENEDOR -->
-                  <div class="" id="v-pills-gc-tres" role="tabpanel" aria-labelledby="v-pills-gc-tres-tab" data-wow-delay="0.3s">
-                    <div class="row my-2 style-pill">
-                      <h4 class="subtitulo">Asignación de labor lectiva</h4> 
-                    </div>
-                    <div class="row my-2 style-pill">
-                      <div class="col-12 col-lg-8 img-regl">
-                        <img id="#gestionDocente" class="gd-img" src="../images/Nueva carpeta/2.3 Asignacion de labor lectiva.jpg" alt="">
-                        
-                      </div>
-                      <!-- REGLAMENTOS -->
-                      <div class="col-12 col-lg-4 img-regl">
-                        <div class="card" style="width: 18rem;">
-                          <div class="card-body">
-                            <h5>REGLAMENTOS</h5>
-                            <p>Documento.pdf</p>
-                            <a href="#" class="card-link">Ver/Descargar</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                          <div class="card-body">
-                            <h5>REGLAMENTOS</h5>
-                            <p>Documento.pdf</p>
-                            <a href="#" class="card-link">Ver/Descargar</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- CUARTO CONTENEDOR -->
-                  <div class="" id="v-pills-gc-cuatro" role="tabpanel" aria-labelledby="v-pills-gc-cuatro-tab">
-                    <div class="row my-2 style-pill">
-                      <h4 class="subtitulo">Registro de silabo y pesos ponderados</h4> 
-                    </div>
-                    <div class="row my-2 style-pill">
-                      <div class="col-12 col-lg-8 img-regl">
-                        <img id="#gestionDocente" class="gd-img" src="../images/Nueva carpeta/2.4. Registro de silabo y pesos ponderados.jpg" alt="">
-                        
-                      </div>
-                      <!-- REGLAMENTOS -->
-                      <div class="col-12 col-lg-4 img-regl">
-                        <div class="card" style="width: 18rem;">
-                          <div class="card-body">
-                            <h5>REGLAMENTOS</h5>
-                            <p>Documento.pdf</p>
-                            <a href="#" class="card-link">Ver/Descargar</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                          <div class="card-body">
-                            <h5>REGLAMENTOS</h5>
-                            <p>Documento.pdf</p>
-                            <a href="#" class="card-link">Ver/Descargar</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-               </div>
-            </div>
-          </div>
+            <!-- TERMINA EL MENU VERTICAL -->
         </div>
         <!-- FOOTER -->
         <div class="row footer style-secondfooter">
-            <div class="col-md-6 text-left">
-                Universidad Nacional de San Agustin de Arequipa <br>
-                Calle Santa Catalina Nro. 117. Cercado - Arequipa<br>
-                Telf. 51-54-237808 - Email: rectorado@unsa.edu.pe
-            </div>
-            <div class="col-md-6 text-right">
-                Dirección Universitaria de Formación Académica<br>
-                Email: dufa@unsa.edu.pe<br>
-                 Telf. 51-54-282269
-            </div>
+          <div class="col-md-6 text-left">
+            Universidad Nacional de San Agustin de Arequipa <br>
+            Calle Universidad 107 Cercado - Arequipa<br>
+          </div>
+          <div class="col-md-6 text-right">
+            Dirección Universitaria de Formación Académica<br>
+            Email: dufa@unsa.edu.pe<br>
+            Telf.(054) 391911 
+          </div>
         </div>
         <!-- CREDITOS -->
         <div class="row">
@@ -239,8 +244,5 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-
 </body>
 </html>
