@@ -11,7 +11,7 @@ html {
     overflow-x: hidden; */
 }
 body{
-    background-color: #f1efef;
+    background-color: #f0ecec;
 }
 
 
@@ -96,15 +96,15 @@ body{
     border-bottom: rgba(0, 0, 0, .2) solid 1px;
 }
 
-        .fnt-10 {
-    font-family: 'Open Sans';
-    font-size: 12px;
-        }
+.fnt-10 {
+font-family: 'Open Sans';
+font-size: 12px;
+}
 
-        .grisb01 {
-            background: rgba(188, 184, 173, .3);
-        }
-   
+.grisb01 {
+    background: rgba(188, 184, 173, .3);
+}
+
 .menu-nosotros{
     margin-top: 2em;
 }
@@ -273,8 +273,6 @@ body{
 
 /* CARRUSEL */
 
-
-
 .principal {
 width: 90%;
 margin: auto;
@@ -356,6 +354,27 @@ margin: auto;
      */
 }
 
+/* DOCUMENTOS ACADEMICOS */
+
+.btn-xs, .btn-group-xs > .btn {
+    padding: 1px 6px;
+    font-size: .8rem;
+    line-height: 1.5;
+    border-radius: 3px;
+    
+}
+
+.btn-xs:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.btn-default {
+    color: #333;
+    background-color: #f0ecec;
+    border-color: #ccc;
+}
+
+
 /* .polit-calidad {
     background: rgba(100, 0, 29, .1);
     height: 100px;
@@ -370,6 +389,8 @@ margin: auto;
     
    
 } */
+
+
 
 /* FOOTER */
 .footer {
