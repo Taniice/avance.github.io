@@ -11,7 +11,7 @@ html {
     overflow-x: hidden; */
 }
 body{
-    background-color: #f1efef;
+    background-color: #f0ecec;
 }
 
 
@@ -75,6 +75,41 @@ body{
     color: #FFFFFF;
     background-color: #430215;
 }
+
+/* ORGANIZACION */
+.wd-men-pag a {
+	color: #323032;
+}
+
+.wd-men-pag a:hover {
+	color:#000;
+	}
+.wd-men-pag h2{
+    color: #64001d;
+    margin-left: 15px;
+    font-size: 1.2rem;
+    font-family: 'Open Sans';
+    }
+.wd-men-pag li {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-bottom: rgba(0, 0, 0, .2) solid 1px;
+}
+
+.fnt-10 {
+font-family: 'Open Sans';
+font-size: 12px;
+}
+
+.grisb01 {
+    background: rgba(188, 184, 173, .3);
+}
+
+.menu-nosotros{
+    margin-top: 2em;
+}
+
+
 
 /* BARRA GEST DOCENTE */
 
@@ -238,8 +273,6 @@ body{
 
 /* CARRUSEL */
 
-
-
 .principal {
 width: 90%;
 margin: auto;
@@ -305,7 +338,7 @@ margin: auto;
 
 .banner{
     filter:brightness(0.7);
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 
 .zoom{
@@ -321,6 +354,27 @@ margin: auto;
      */
 }
 
+/* DOCUMENTOS ACADEMICOS */
+
+.btn-xs, .btn-group-xs > .btn {
+    padding: 1px 6px;
+    font-size: .8rem;
+    line-height: 1.5;
+    border-radius: 3px;
+    
+}
+
+.btn-xs:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.btn-default {
+    color: #333;
+    background-color: #f0ecec;
+    border-color: #ccc;
+}
+
+
 /* .polit-calidad {
     background: rgba(100, 0, 29, .1);
     height: 100px;
@@ -335,6 +389,8 @@ margin: auto;
     
    
 } */
+
+
 
 /* FOOTER */
 .footer {
