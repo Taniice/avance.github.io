@@ -88,7 +88,7 @@ body{
     color: #64001d;
     margin-left: 15px;
     font-size: 1.2rem;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     }
 .wd-men-pag li {
     padding: 10px 15px;
@@ -97,7 +97,7 @@ body{
 }
 
 .fnt-10 {
-font-family: 'Open Sans';
+font-family: 'Open Sans', sans-serif;
 font-size: 12px;
 }
 
@@ -330,6 +330,7 @@ margin: auto;
     text-align: justify;
     margin-bottom: 2em;
     overflow:hidden;
+    
 }
 
 .nosotros h4, .nosotros h3 {
@@ -374,6 +375,9 @@ margin: auto;
     border-color: #ccc;
 }
 
+.documentos-academicos{
+    font-family: 'Open Sans';
+}
 
 /* .polit-calidad {
     background: rgba(100, 0, 29, .1);
