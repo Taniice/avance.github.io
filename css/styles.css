@@ -39,41 +39,51 @@ body{
 }
 
 /* MENU STYLES */
-.color-menu{
+.color-button{
+    color: #ffffff;
+}
+
+.menu-up .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #ffffff;
+}
+
+.menu-up nav.navbar {
     background-color:rgb(100, 0, 29);
-    font-family: 'Open Sans', sans-serif; 
-    font: 1.2rem /* 400 1.2rem/1.2rem */;
-
-}
-
-.my-menu, .my-menu:hover{
-    color: #FFFFFF;
-    
-}
-
-.my-menu-hover:hover{
-    background-color: #430215;
-    
-}
-
-
-/* .menu-estilos {
-   color: #FFFFFF;
-   padding: .5em 1em;
-   padding: 0em;
-   height:60px ;
-   text-align: center
-   
-}
- */
-.box-menu{
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+    
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
 }
 
 
-.menu-estilos:hover {
-    color: #FFFFFF;
+.navbar-nav .nav-item:hover {
     background-color: #430215;
+    color: #ffffff;
+
+}
+
+.logo-menu{
+    display: none;
+}
+
+
+.icon-responsive{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-disp-mobil{
+    display: none;
 }
 
 /* ORGANIZACION */
@@ -111,7 +121,7 @@ font-size: 12px;
 
 
 
-/* BARRA GEST DOCENTE */
+/* BARRA GESTIONES */
 
 
 .gd-principal{
@@ -278,13 +288,13 @@ width: 90%;
 margin: auto;
 }
 
+
+
 .portada {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-
-
 
 .noticias {
     text-align: justify
@@ -436,7 +446,29 @@ margin: auto;
     font-family: Helvetica, Arial;
     font-size: .8rem;
 }
-
+/* MENU RESPONSIVE */
+@media (max-width: 990px) {
+    .navbar-nav .nav-item{
+        border-top: 1px solid  #ffffff;
+    }
+ 
+    .logo-menu{
+     display:block;
+     }
+ 
+     .cabezera{
+         display: none;
+     }
+ 
+     .caja{
+         display: none;
+     }
+ 
+     .img-disp-mobil{
+         display: block;
+     }
+ }
+/* OTROS */
 @media (max-width: 767px) {
     .img-regl{
         margin-left:15px;

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/unsaicono.ico"/>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
       rel="stylesheet"
@@ -93,83 +94,81 @@
       </div>
       <!-- MENU -->
       <div class="row ">
-        <div class="col px-0">
-          <ul class="nav nav-justified color-menu">
-            <li class="nav-item nav-item dropdown my-menu-hover d-flex align-items-center justify-content-center">
-              <svg xmlns="http://www.w3.org/2000/svg" style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M21.743,12.331l-9-10c-0.379-0.422-1.107-0.422-1.486,0l-9,10c-0.265,0.293-0.331,0.715-0.17,1.076	C2.247,13.768,2.605,14,3,14h2v7c0,0.552,0.447,1,1,1h3c0.553,0,1-0.448,1-1v-4h4v4c0,0.552,0.447,1,1,1h3c0.553,0,1-0.448,1-1v-7h2	c0.395,0,0.753-0.232,0.913-0.593C22.074,13.046,22.008,12.625,21.743,12.331z"/></svg>
-              <a class="nav-link dropdown-toggle my-menu active" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">INICIO</a>
-              <div class="dropdown-menu gris01" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item gris02" href="#">Inicio</a>
-                <a class="dropdown-item gris02" href="procedimientos/nosotros.html">Nosotros</a> 
-                <a class="dropdown-item gris02" href="procedimientos/documentos-academicos.html">Documentos Académicos</a> 
-                <a class="dropdown-item gris02" href="procedimientos/cronograma-academico.html">Cronograma Académico</a>
-              </div>
-            </li>
-            <li class="nav-item my-menu-hover">
-              <a class="nav-link my-menu" href="procedimientos/gestDocente.html"
-                >Gestión<br />
-                Docente</a
-              >
-            </li>
-            <li class="nav-item my-menu-hover">
-              <a
-                class="nav-link my-menu"
-                href="procedimientos/gestCurricular.html"
-                >Gestión <br />
-                Curricular
-              </a>
-            </li>
-            <li class="nav-item my-menu-hover">
-              <a
-                class="nav-link my-menu"
-                href="procedimientos/GestMatricula.html"
-                >Gestión <br />
-                Matrícula</a
-              >
-            </li>
-            <li class="nav-item my-menu-hover">
-              <a
-                class="nav-link my-menu"
-                href="procedimientos/gestRegistroNotas.html"
-                >Gestión <br />
-                Registro de Notas</a
-              >
-            </li>
-            <li class="nav-item my-menu-hover">
-              <a
-                class="nav-link my-menu"
-                href="procedimientos/gestCertificaciones.html"
-                >Gestión <br />
-                Cerfificaciones</a
-              >
-            </li>
-            <li
-              class="nav-item nav-item dropdown my-menu-hover d-flex align-items-center justify-content-center"
-            >
-              <a
-                class="nav-link dropdown-toggle my-menu active"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                href="#"
-                >Consultas</a
-              >
-              <div
-                class="dropdown-menu gris01"
-                aria-labelledby="navbarDropdown"
-              >
-                <a class="dropdown-item gris02" href="procedimientos/consultas.html"
-                  >Preguntas Frecuentes</a
-                >
-              </div>
-            </li>
-          </ul>
+        <div class="col-12 px-0 menu-up">
+          <nav class="navbar navbar-expand-lg navbar-dark navbar-light p-0">     
+            <div class="icon-responsive">
+                <a href="http://www.unsa.edu.pe" >
+                  <img
+                    src="images/logo_dufa.png"
+                    width="218"
+                    height="50"
+                    alt=""
+                    class="img-responsive img-disp-mobil text-left"
+                  />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!--  <span class="navbar-toggler-icon"></span> -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: white;" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item py-3 px-2 active dropdown">
+                  <a class="nav-link dropdown-toggle" style="word-spacing: 4pt;" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M21.743,12.331l-9-10c-0.379-0.422-1.107-0.422-1.486,0l-9,10c-0.265,0.293-0.331,0.715-0.17,1.076	C2.247,13.768,2.605,14,3,14h2v7c0,0.552,0.447,1,1,1h3c0.553,0,1-0.448,1-1v-4h4v4c0,0.552,0.447,1,1,1h3c0.553,0,1-0.448,1-1v-7h2	c0.395,0,0.753-0.232,0.913-0.593C22.074,13.046,22.008,12.625,21.743,12.331z"/></svg>
+                  INICIO
+                  <span class="sr-only">(current)</span></a>
+                  <div class="dropdown-menu gris01" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item gris02" href="#">Inicio</a>
+                    <a class="dropdown-item gris02" href="procedimientos/nosotros.html">Nosotros</a>
+                    <a class="dropdown-item gris02" href="procedimientos/documentos-academicos.html">Documentos Académicos</a>
+                    <a class="dropdown-item gris02" href="procedimientos/cronograma-academico.html">Cronograma Académico</a>
+                  </div>
+                </li>
+                <li class="nav-item p-3 px-2 ">
+                    <a class="nav-link " href="procedimientos/gestDocente.html">
+                      <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>
+                      <span>Gestión Docente</span> 
+                    </a>
+                </li>
+                <li class="nav-item py-3 px-2">
+                    <a class="nav-link" href="procedimientos/gestCurricular.html">
+                      <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>
+                       <span>Gestión Curricular</span> </a>
+                </li>
+                <li class="nav-item py-3 px-2">
+                    <a class="nav-link " href="procedimientos/GestMatricula.html">
+                      <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>
+                      Gestión Matricula</a>
+                </li>
+                <li class="nav-item py-3 px-2">
+                    <a class="nav-link " href="procedimientos/gestRegistroNotas.html">
+                      <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>
+                      Gestión Registro de Notas</a>
+                </li>
+                <li class="nav-item py-3 px-2 ">
+                    <a class="nav-link" href="procedimientos/gestCertificaciones.html">
+                      <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>
+                      Gestión Certificaciones</a>
+                </li>
+                <li class="nav-item py-3 px-2 dropdown">
+                  <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>  
+                    Consultas
+                  </a>
+                  <div class="dropdown-menu gris01" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item gris02" href="procedimientos/consultas.html">Preguntas Frecuentes</a>
+                    
+                  </div>
+                </li>
+                
+              </ul>
+            </div>
+      </nav>
         </div>
       </div>
       <!-- MAIN -->
-      <div class="principal">
-        
+      <div class="principal">      
         <!-- CARRUSEL Y CALENDARIO -->
         <div class="row">
           <!-- CARRUSEL -->
@@ -181,25 +180,13 @@
             >
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img
-                    src="./images/portada2.jpg"
-                    class="d-block w-100"
-                    alt="imagen de portada"
-                  />
+                  <img src="./images/portada1.jpg" class="d-block w-100" alt="imagen de portada"/>
                 </div>
                 <div class="carousel-item">
-                  <img
-                    src="./images/portada1.jpg"
-                    class="d-block w-100"
-                    alt="imagen de portada"
-                  />
+                  <img src="./images/portada2.jpg" class="d-block w-100" alt="imagen de portada"/>
                 </div>
                 <div class="carousel-item">
-                  <img
-                    src="./images/portada3.jpg"
-                    class="d-block w-100"
-                    alt="imagen de portada"
-                  />
+                  <img src="./images/portada3.jpg" class="d-block w-100" alt="imagen de portada"/>
                 </div>
               </div>
               <a
@@ -236,8 +223,8 @@
           <div class="col-12">
             <h3 class="title-section">COMUNICADOS</h3>
             <div class="row">
-              <div class="col-12 col-md-6 col-lg-6" style="overflow:hidden;">
-                <img class="comunicado zoom"  height="290px" width="600px" src="images/comunicado_1.png" alt="">
+              <div class="col-12 col-md-6 col-lg-6">
+                <img class="comunicado"  height="auto" width="600px" src="images/comunicado2.png" alt="">
               </div>
               <div class="col-12 col-md-6 col-lg-6" style="overflow:hidden;" >
                 <a href="https://www.unsa.edu.pe/ingresantes-a-la-unsa-deben-regularizar-expedientes/">
@@ -249,7 +236,7 @@
         <!-- NOTICIAS Y COMUNICADO -->
         <div class="row informacion-nosotros">
           <!-- NOTICIAS -->
-          <div class="col-sm-12 col-md-12 col-lg-8 col-blog">
+         <!--  <div class="col-sm-12 col-md-12 col-lg-8 col-blog">
             <h3 class="title-section">NOTICIAS</h3>
             <div class="row">
               <div class="col-sm-12 col-md-6 cold-lg-6">
@@ -271,11 +258,11 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-4 my-4 p-3 d-flex justify-content-center">
+          </div> -->
+          <!-- <div class="col-sm-12 col-md-12 col-lg-4 my-4 p-3 d-flex justify-content-center">
             <div class="fb-post" data-href="https://www.facebook.com/PaginaOficialUNSA/posts/3175331765876594" data-show-text="false" data-width="360"><blockquote cite="https://developers.facebook.com/PaginaOficialUNSA/posts/3175331765876594" class="fb-xfbml-parse-ignore"><p>#IngresantesUNSA 
               Durante el Estado de Emergencia decretado por el Gobierno Central, hemos habilitado números de...</p>Publicada por <a href="https://www.facebook.com/PaginaOficialUNSA/">Universidad Nacional de San Agustín de Arequipa - UNSA</a> en&nbsp;<a href="https://developers.facebook.com/PaginaOficialUNSA/posts/3175331765876594">Lunes, 3 de agosto de 2020</a></blockquote></div>
-          </div>
+          </div> -->
         </div>
         </div>
       </div>

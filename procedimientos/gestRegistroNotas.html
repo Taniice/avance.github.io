@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/unsaicono.ico"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -42,42 +43,78 @@
         </div>
         <!-- MENU -->
         <div class="row">
-            <div class="col px-0 ">
-              <ul class="nav nav-justified color-menu">
-                <li class="nav-item nav-item dropdown my-menu-hover d-flex align-items-center justify-content-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M21.743,12.331l-9-10c-0.379-0.422-1.107-0.422-1.486,0l-9,10c-0.265,0.293-0.331,0.715-0.17,1.076	C2.247,13.768,2.605,14,3,14h2v7c0,0.552,0.447,1,1,1h3c0.553,0,1-0.448,1-1v-4h4v4c0,0.552,0.447,1,1,1h3c0.553,0,1-0.448,1-1v-7h2	c0.395,0,0.753-0.232,0.913-0.593C22.074,13.046,22.008,12.625,21.743,12.331z"/></svg>
-                  <a class="nav-link dropdown-toggle my-menu active" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">INICIO</a>
-                  <div class="dropdown-menu gris01" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item gris02" href="../index.html">Inicio</a>
-                    <a class="dropdown-item gris02" href="./nosotros.html">Nosotros</a>
-                    <a class="dropdown-item gris02" href="documentos-academicos.html">Documentos Académicos</a> 
-                    <a class="dropdown-item gris02" href="cronograma-academico.html">Cronograma Académico</a>   
-                  </div>
-                </li>
-                <li class="nav-item my-menu-hover d-flex align-items-center justify-content-center">
-                  <!-- <svg xmlns="http://www.w3.org/2000/svg" style="fill:#92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg> -->
-                  <a class="nav-link my-menu" href="gestDocente.html">Gestión <br> Docente</a>
-                </li>
-                <li class="nav-item my-menu-hover d-flex align-items-center justify-content-center">
-                  <a class="nav-link my-menu" href="gestCurricular.html">Gestión <br>Curricular </a>
-                </li>
-                <li class="nav-item my-menu-hover d-flex align-items-center justify-content-center">
-                  <a class="nav-link my-menu" href="GestMatricula.html">Gestión <br> Matrícula</a>
-                </li>
-                <li class="nav-item my-menu-hover d-flex align-items-center justify-content-center">
-                  <a class="nav-link my-menu" href="#">Gestión <br>Registro de Notas</a>
-                </li>
-                <li class="nav-item my-menu-hover d-flex align-items-center justify-content-center">
-                  <a class="nav-link my-menu" href="gestCertificaciones.html">Gestión<br>Cerfiticaciones</a>
-                </li>
-                <li class="nav-item nav-item dropdown my-menu-hover d-flex align-items-center justify-content-center">
-                  <a class="nav-link dropdown-toggle my-menu active" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Consultas</a>
-                  <div class="dropdown-menu gris01" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item gris02" href="consultas.html">Preguntas Frecuentes</a>  
-                  </div>
-                </li>
-              </ul>
-            </div>
+          <div class="col-12 px-0 menu-up">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-light p-0">     
+              <div class="icon-responsive">
+                  <a href="http://www.unsa.edu.pe" >
+                    <img
+                      src="../images/logo_dufa.png"
+                      width="218"
+                      height="50"
+                      alt=""
+                      class="img-responsive img-disp-mobil text-left"
+                    />
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <!--  <span class="navbar-toggler-icon"></span> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: white;" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
+                  </button>
+              </div>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item py-3 px-2 active dropdown">
+                    <a class="nav-link dropdown-toggle" style="word-spacing: 4pt;" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M21.743,12.331l-9-10c-0.379-0.422-1.107-0.422-1.486,0l-9,10c-0.265,0.293-0.331,0.715-0.17,1.076	C2.247,13.768,2.605,14,3,14h2v7c0,0.552,0.447,1,1,1h3c0.553,0,1-0.448,1-1v-4h4v4c0,0.552,0.447,1,1,1h3c0.553,0,1-0.448,1-1v-7h2	c0.395,0,0.753-0.232,0.913-0.593C22.074,13.046,22.008,12.625,21.743,12.331z"/></svg>
+                    INICIO
+                    <span class="sr-only">(current)</span></a>
+                    <div class="dropdown-menu gris01" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item gris02" href="../index.html">Inicio</a>
+                      <a class="dropdown-item gris02" href="./nosotros.html">Nosotros</a>
+                      <a class="dropdown-item gris02" href="./documentos-academicos.html">Documentos Académicos</a>
+                      <a class="dropdown-item gris02" href="./cronograma-academico.html">Cronograma Académico</a>
+                    </div>
+                  </li>
+                  <li class="nav-item p-3 px-2 ">
+                      <a class="nav-link " href="./gestDocente.html">
+                        <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>
+                        <span>Gestión Docente</span> 
+                      </a>
+                  </li>
+                  <li class="nav-item py-3 px-2">
+                      <a class="nav-link" href="./gestCurricular.html">
+                        <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>
+                         <span>Gestión Curricular</span> </a>
+                  </li>
+                  <li class="nav-item py-3 px-2">
+                      <a class="nav-link " href="./GestMatricula.html">
+                        <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>
+                        Gestión Matricula</a>
+                  </li>
+                  <li class="nav-item py-3 px-2">
+                      <a class="nav-link " href="./gestRegistroNotas.html">
+                        <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>
+                        Gestión Registro de Notas</a>
+                  </li>
+                  <li class="nav-item py-3 px-2 ">
+                      <a class="nav-link" href="./gestCertificaciones.html">
+                        <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>
+                        Gestión Certificaciones</a>
+                  </li>
+                  <li class="nav-item py-3 px-2 dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <svg xmlns="http://www.w3.org/2000/svg"  style="fill: #92585a;" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8s3.589-8,8-8 s8,3.589,8,8S16.411,20,12,20z"/><path d="M9.999 13.587L7.7 11.292 6.288 12.708 10.001 16.413 16.707 9.707 15.293 8.293z"/></svg>  
+                      Consultas
+                    </a>
+                    <div class="dropdown-menu gris01" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item gris02" href="./consultas.html">Preguntas Frecuentes</a>
+                      
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+            </nav>
+         </div>
         </div>
         <!-- --------------------------------------------------------------------------------- -->
          <!-- MAIN -->
