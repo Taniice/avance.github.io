@@ -38,6 +38,34 @@ body{
     
 }
 
+/* REDES */
+
+#men-acc li {
+    padding: 5px 5px;
+    float: left;
+}
+
+#men-acc {
+    font-weight: 600;
+    list-style: none;
+    font-size: .8rem;
+    display:block;
+    letter-spacing: -0.05rem;
+    color: #eee;
+}
+#men-acc a {
+    color: #eee;
+}
+
+.gris03 {
+    background: #939398;
+}
+
+#redes {
+    display: inline-block;
+}
+
+
 /* MENU STYLES */
 .color-button{
     color: #ffffff;
@@ -48,7 +76,7 @@ body{
     
 }
 
-.navbar-light .navbar-nav .active>.nav-link{
+.navbar-light .navbar-nav .active>.nav-link {
     color: #ffffff;
 }
 
@@ -253,34 +281,6 @@ font-size: 12px;
 
 
 
-
-
-/* BARRA IZQUIERDA INICIO ESTILOS */
-
-/* .principal-izquierda {
-    height: 400px;
-    font-size: 1rem;
-    padding: .5em;
-    font-family: 'Open Sans', sans-serif;
-    
-    
-}
-
-.principal-izquierda-estilos {
-    color: #FFFFFF;
-    background-color:rgb(100, 0, 29);
-    margin-top: .25em;
-    margin-bottom: .25em ;
-    border-radius: 10px;
-}
-
-.principal-izquierda-estilos:hover {
-    color: #FFFFFF;
-    background-color: #430215;
-} */
-
-
-
 /* CARRUSEL */
 
 .principal {
@@ -397,13 +397,7 @@ margin: auto;
 }
  */
 /* 
-.img-nosotros{
-    background-image: url(../images/banner3.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-   
-} */
+
 
 
 
