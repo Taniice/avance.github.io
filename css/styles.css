@@ -8,10 +8,10 @@
 html {
     font-size: 70%;
 }
+
 body{
     background-color: #f0ecec;
 }
-
 
 .cabezera {
     background: rgba(50, 48, 50, .2);
@@ -184,11 +184,11 @@ font-size: 12px;
   }
   
   
-  .style-news{
+.style-news{
     display: inline-block;
   }
 
-  .gris01 {
+.gris01 {
     background:#DBDBDB;
     border-bottom: #6d6d72 solid 1px; 
     z-index: 1050;
@@ -207,7 +207,7 @@ font-size: 12px;
     
 } */
 
-/* CONTENIDO PILLS- PASTILLAS */
+/* CONTENIDO PILLS - PASTILLAS */
 .style-pill{
     width: 100%;
 
@@ -419,6 +419,7 @@ margin: auto;
     font-family: Helvetica, Arial;
     font-size: .8rem;
 }
+
 /* MENU RESPONSIVE */
 @media (max-width: 990px) {
     .navbar-nav .nav-item{
