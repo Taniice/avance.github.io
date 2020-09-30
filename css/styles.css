@@ -138,6 +138,10 @@ body{
     display: none;
 }
 
+.responsive-caja {
+    display: none;
+}
+
 /* ORGANIZACION */
 .wd-men-pag a {
 	color: #323032;
@@ -467,6 +471,12 @@ margin: auto;
      .img-disp-mobil{
          display: block;
      }
+
+     /* Para doc acad y cronograma academico */
+     .responsive-caja {
+        display: block;
+    }
+    
  }
 /* OTROS */
 @media (max-width: 767px) {
